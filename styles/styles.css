@@ -1,0 +1,8 @@
+.marca {
+    font-family: 'BenedictFont';
+}
+@font-face {
+    font-family: "BenedictFont";
+    src: url("/fonts/Benedict.ttf");
+    font-weight: bold;
+}
