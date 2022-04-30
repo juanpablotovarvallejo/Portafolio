@@ -36,13 +36,13 @@ export default function Tarjeta(props) {
                     <Card.Text>
                         Herramientas:
                         {Object.keys(icons).map(elemento => {
-                            return props.herramientas.includes(elemento) ? <img key={elemento} title={elemento} alt={elemento} height={'25px'} width={'30px'} src={icons[elemento]}></img> : null
+                            return props.tools.includes(elemento) ? <img key={elemento} title={elemento} alt={elemento} height={'25px'} width={'30px'} src={icons[elemento]}></img> : null
                         })}
                     </Card.Text>
                 </Card.Body>
             </Card>
 
-            <Modal show={show} onHide={handleClose}>
+            <Modal size="lg" show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>{props.title}</Modal.Title>
                 </Modal.Header>
@@ -50,23 +50,25 @@ export default function Tarjeta(props) {
                     <Carousel fade variant="dark">
                         <Carousel.Item>
                             <img
-                                className="d-block w-100"
+                                className="d-block img-fluid h-100"
                                 src="/img/rr.png"
                                 alt="First slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                                className="d-block w-100"
+                                className="d-block img-fluid h-100"
                                 src="/img/yt.png"
                                 alt="Second slide"
                             />
                         </Carousel.Item>
                     </Carousel>
+                    <p className="m-0">{props.description}</p>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button variant="primary" onClick={handleClose}>
-                        Close
+                    {props.demo ? <Button variant="primary" href={props.demo}>Demo</Button> : null}
+                    <Button variant="primary" href={props.repository}>
+                        Repositorio
                     </Button>
                 </Modal.Footer>
             </Modal>

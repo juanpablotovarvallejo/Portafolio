@@ -15,7 +15,7 @@ export default function Habilidades() {
         TypeScript: '/icons/typescript.svg',
     }
     return Object.keys(icons).map(elemento => {
-                return  <div className="col-2 p-3"> 
+                return  <div className="col-2 p-3" key={elemento}> 
                             <img height={'50px'} src={icons[elemento]}></img>
                             <p>{elemento}</p>
                         </div>
