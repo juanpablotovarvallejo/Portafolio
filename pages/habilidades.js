@@ -14,10 +14,17 @@ export default function Habilidades() {
         NestJs: '/icons/nestjs.svg',
         TypeScript: '/icons/typescript.svg',
     }
-    return Object.keys(icons).map(elemento => {
-                return  <div className="col-2 p-3" key={elemento}> 
-                            <img height={'50px'} src={icons[elemento]}></img>
-                            <p>{elemento}</p>
-                        </div>
-            })
+    return <div className="container">
+        <div className='row text-center'>
+            <h1 className='my-4 marca' style={{fontSize:4+'rem'}}>Habilidades</h1>
+            {Object.keys(icons).map(elemento => (
+                <div className="col-4 col-md-2 p-3" key={elemento}>
+                    <div className="my-3" style={{height:60+'px'}}>
+                    <img className="icon mx-auto" height={'50px'} src={icons[elemento]}></img>
+                    </div>
+                    <p>{elemento}</p>
+                </div>
+            ))}
+        </div>
+    </div>  
 }
