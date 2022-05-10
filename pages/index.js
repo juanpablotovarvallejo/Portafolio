@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Hero from './hero'
-import Tarjeta from './tarjeta.js'
-import BarraNavegacion from './barraNavegacion.js'
-import Habilidades from './habilidades.js'
-import Contacto from './contacto'
+import Hero from '../components/hero'
+import Tarjeta from '../components/tarjeta'
+import BarraNavegacion from '../components/barraNavegacion'
+import Habilidades from '../components/habilidades'
+import Contacto from '../components/contacto'
 
 
 export default function Home() {
