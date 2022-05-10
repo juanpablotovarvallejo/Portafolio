@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import Hero from '../components/hero'
 import Tarjeta from '../components/tarjeta'
 import BarraNavegacion from '../components/barraNavegacion'
