@@ -13,7 +13,7 @@ export default function Tarjeta(props) {
     const handleShow = () => setShow(true);
 
     let icons = {
-        NextJs: 'portafolio/icons/nextjs.svg',
+        NextJs: '/portafolio/icons/nextjs.svg',
         React: '/icons/react.svg',
         NodeSs: '/icons/node.svg',
         JavaScript: '/icons/javascript.svg',

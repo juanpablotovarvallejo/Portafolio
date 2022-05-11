@@ -73,7 +73,7 @@ export default function Home() {
           backdrop-filter: blur(10px);
         }
         main{
-          background-image: url('/bg.png');
+          background-image: url('/portafolio/bg.png');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
