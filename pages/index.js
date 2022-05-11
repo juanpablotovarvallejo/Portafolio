@@ -39,6 +39,12 @@ export default function Home() {
       <Head>
         <title>Juan Pablo Tovar</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous"
+        />
       </Head>
       <main className='text-white'>
         <BarraNavegacion />
@@ -46,7 +52,7 @@ export default function Home() {
         <div className='p-5'>
           <div className="container">
             <div className='row text-center'>
-              <h1 className='my-4 marca' style={{fontSize:4+'rem'}}>Portafolio</h1>
+              <h1 className='my-4 marca' style={{ fontSize: 4 + 'rem' }}>Portafolio</h1>
               {projects.map(project => (
                 <Tarjeta title={project.tittle} img={project.img} tools={project.tools}
                   description={project.description} demo={project.demo} repository={project.repository} key={project.tittle} />
