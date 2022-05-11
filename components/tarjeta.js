@@ -13,19 +13,19 @@ export default function Tarjeta(props) {
     const handleShow = () => setShow(true);
 
     let icons = {
-        NextJs: '/portafolio/icons/nextjs.svg',
-        React: '/icons/react.svg',
-        NodeSs: '/icons/node.svg',
-        JavaScript: '/icons/javascript.svg',
-        HTML: '/icons/html.svg',
-        CSS: '/icons/css.svg',
-        Bootstrap: '/icons/bootstrap.svg',
-        Laravel: '/icons/laravel.svg',
-        Angular: '/icons/angular.svg',
-        PHP: '/icons/php.svg',
-        Django: '/icons/django.svg',
-        NestJs: '/icons/nestjs.svg',
-        TypeScript: '/icons/typescript.svg',
+        NextJs: '/Portafolio/icons/nextjs.svg',
+        React: '/Portafolio/icons/react.svg',
+        NodeSs: '/Portafolio/icons/node.svg',
+        JavaScript: '/Portafolio/icons/javascript.svg',
+        HTML: '/Portafolio/icons/html.svg',
+        CSS: '/Portafolio/icons/css.svg',
+        Bootstrap: '/Portafolio/icons/bootstrap.svg',
+        Laravel: '/Portafolio/icons/laravel.svg',
+        Angular: '/Portafolio/icons/angular.svg',
+        PHP: '/Portafolio/icons/php.svg',
+        Django: '/Portafolio/icons/django.svg',
+        NestJs: '/Portafolio/icons/nestjs.svg',
+        TypeScript: '/Portafolio/icons/typescript.svg',
     }
 
 
@@ -72,14 +72,14 @@ export default function Tarjeta(props) {
                         <Carousel.Item>
                             <img
                                 className="d-block img-fluid h-100"
-                                src="/img/rr.png"
+                                src="/Portafolio/img/rr.png"
                                 alt="First slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                                 className="d-block img-fluid h-100"
-                                src="/img/yt.png"
+                                src="/Portafolio/img/yt.png"
                                 alt="Second slide"
                             />
                         </Carousel.Item>

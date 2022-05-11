@@ -1,18 +1,18 @@
 export default function Habilidades() {
     let icons = {
-        NextJs: '/icons/nextjs.svg',
-        React: '/icons/react.svg',
-        NodeJs: '/icons/nodejs.svg',
-        JavaScript: '/icons/javascript.svg',
-        HTML: '/icons/html.svg',
-        CSS: '/icons/css.svg',
-        Bootstrap: '/icons/bootstrap.svg',
-        Laravel: '/icons/laravel.svg',
-        Angular: '/icons/angular.svg',
-        PHP: '/icons/php.svg',
-        Django: '/icons/django.svg',
-        NestJs: '/icons/nestjs.svg',
-        TypeScript: '/icons/typescript.svg',
+        NextJs: '/Portafolio/icons/nextjs.svg',
+        React: '/Portafolio/icons/react.svg',
+        NodeJs: '/Portafolio/icons/nodejs.svg',
+        JavaScript: '/Portafolio/icons/javascript.svg',
+        HTML: '/Portafolio/icons/html.svg',
+        CSS: '/Portafolio/icons/css.svg',
+        Bootstrap: '/Portafolio/icons/bootstrap.svg',
+        Laravel: '/Portafolio/icons/laravel.svg',
+        Angular: '/Portafolio/icons/angular.svg',
+        PHP: '/Portafolio/icons/php.svg',
+        Django: '/Portafolio/icons/django.svg',
+        NestJs: '/Portafolio/icons/nestjs.svg',
+        TypeScript: '/Portafolio/icons/typescript.svg',
     }
     return <div className="container">
         <div className='row text-center'>
