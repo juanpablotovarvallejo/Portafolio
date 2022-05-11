@@ -105,6 +105,10 @@ export default function Home() {
         .btn:hover{
           background: linear-gradient(45deg, #af2ad7 ,#D46018) ;
         }
+        .btn:focus{
+          background: linear-gradient(45deg, #af2ad7 ,#D46018) ;
+          box-shadow: none;
+        }
         .btn::after{
           content: "";
           position: absolute;

@@ -15,6 +15,10 @@ export default function Contacto() {
             }, (error) => { 
                 console.log(error.text);    
             });
+            document.querySelectorAll('input').forEach(element => {
+                element.value = '';
+            });
+            ducument.querySelector('textarea').value = '';
     };
 
     return <div className="container text-center mb-4">
