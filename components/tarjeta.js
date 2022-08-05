@@ -40,11 +40,11 @@ export default function Tarjeta(props) {
                                 <Button href={props.demo}>
                                     <BsLink45Deg className="mb-1"/> Demo</Button>
                             </div> : null}
-                            <div className="col-12">
+                            {props.repository ? <div className="col-12">
                                 <Button className="align-itms-center" href={props.repository}>
                                     <BsGithub className="mb-1"/> Repositorio
                                 </Button>
-                            </div>
+                            </div> : null}
                         </div>
                     </div>
                 </div>
@@ -69,29 +69,21 @@ export default function Tarjeta(props) {
                 </Modal.Header>
                 <Modal.Body>
                     <Carousel fade variant="dark">
-                        <Carousel.Item>
-                            <img
-                                className="d-block img-fluid h-100"
-                                src="/Portafolio/img/rr.png"
-                                alt="First slide"
-                            />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                                className="d-block img-fluid h-100"
-                                src="/Portafolio/img/yt.png"
-                                alt="Second slide"
-                            />
-                        </Carousel.Item>
+                        {props.ss.map((img, index) => {
+                            return <Carousel.Item key={index}>
+                                <img className="d-block w-100" src={img} alt="First slide" />
+                            </Carousel.Item>
+                        }
+                        )}
                     </Carousel>
                     <p className="m-0">{props.description}</p>
                 </Modal.Body>
                 <Modal.Footer>
                     {props.demo ? <Button variant="primary" href={props.demo}>
                         <BsLink45Deg className="mb-1"/> Demo</Button> : null}
-                    <Button className="button" href={props.repository}>
+                    {props.repository ? <Button className="button" href={props.repository}>
                         <BsGithub className="mb-1"/> Repositorio
-                    </Button>
+                    </Button> : null}
                 </Modal.Footer>
             </Modal>
             <style jsx>{`
