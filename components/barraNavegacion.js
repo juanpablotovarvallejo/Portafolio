@@ -16,26 +16,26 @@ class BarraNavegacion extends Component {
 
     handleScroll(event) {
         const sections = document.querySelectorAll('h1');
-        if (window.scrollY >= sections[3].offsetTop - 200) {
+        if (window.scrollY >= sections[5].offsetTop - 200) {
             document.getElementById('navbar').classList.add('blur');
             document.getElementById('logo').classList.remove('dnone');
         } else {
             document.getElementById('navbar').classList.remove('blur');
             document.getElementById('logo').classList.add('dnone');
         }
-        if (window.scrollY >=  sections[3].offsetTop - 150 && 
-        window.scrollY <=  sections[4].offsetTop - 150) {
+        if (window.scrollY >=  sections[5].offsetTop - 150 && 
+        window.scrollY <=  sections[6].offsetTop - 150) {
             document.querySelectorAll('.nav-link').forEach(link => {
                 link.classList.remove('active');
             });
             document.getElementsByClassName('nav-link')[0].classList.add('active');
-        } else if (window.scrollY >=  sections[4].offsetTop - 150 && 
-        window.scrollY <=  sections[5].offsetTop - 150) {
+        } else if (window.scrollY >=  sections[6].offsetTop - 150 && 
+        window.scrollY <=  sections[7].offsetTop - 150) {
             document.querySelectorAll('.nav-link').forEach(link => {
                 link.classList.remove('active');
             });
             document.getElementsByClassName('nav-link')[1].classList.add('active');
-        } else if (window.scrollY >=  sections[5].offsetTop - 150) {
+        } else if (window.scrollY >=  sections[7].offsetTop - 150) {
             document.querySelectorAll('.nav-link').forEach(link => {
                 link.classList.remove('active');
             });
@@ -55,13 +55,13 @@ class BarraNavegacion extends Component {
 
     }
     handlePortafolioClick = () => {
-        window.scrollTo(0, document.querySelectorAll('h1')[3].offsetTop - 100);
+        window.scrollTo(0, document.querySelectorAll('h1')[5].offsetTop - 100);
     }
     handleHabilidadesClick = () => {
-        window.scrollTo(0, document.querySelectorAll('h1')[4].offsetTop - 100);
+        window.scrollTo(0, document.querySelectorAll('h1')[6].offsetTop - 100);
     }
     handleContactoClick = () => {
-        window.scrollTo(0, document.querySelectorAll('h1')[5].offsetTop - 100);
+        window.scrollTo(0, document.querySelectorAll('h1')[7].offsetTop - 100);
     }
 
     render() {
@@ -69,7 +69,7 @@ class BarraNavegacion extends Component {
             <div id="navbar" className="fixed-top" onScroll={this.handleScroll}>
                 <Navbar bg="transparent" variant="dark" expand="lg">
                     <Container>
-                        <Navbar.Brand href="#home" onClick={this.handleBrandClick}><nav id="logo" className="dnone marca">Juan Pablo Tovar</nav></Navbar.Brand>
+                        <Navbar.Brand href="#home" onClick={this.handleBrandClick}><nav id="logo" className="dnone marca">Juan Pablo Tovar Vallejo</nav></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav d-flex" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ms-auto">

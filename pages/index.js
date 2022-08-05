@@ -10,7 +10,7 @@ export default function Home() {
 
   const projects = [
     {
-      tittle: "Portafolio digital", description: "Portafolio digital realizado con NextJs y React.", img: "/Portafolio/img/yt.png",
+      tittle: "Portafolio digital", description: "Portafolio digital realizado con NextJs y React.", img: "/Portafolio/img/pt1.png",
       tools: ["NextJs", "React", "Bootstrap", "JavaScript", "HTML", "CSS"], demo: "", repository: ""
     },
     {
@@ -23,7 +23,7 @@ export default function Home() {
     },
     {
       tittle: "Sistema de venta de tickets para transporte interprovincial", description: "Sistema para la venta de tickets y generación de códigos QR para un terminal terrestre, front-end realizado con Angular y API con Django",
-      img: "/Portafolio/img/yt.png", tools: ["Angular", "TypeScript", "Django", "Bootstrap", "HTML", "JavaScript"], demo: "", repository: ""
+      img: "/Portafolio/img/svt1.png", tools: ["Angular", "TypeScript", "Django", "Bootstrap", "HTML", "JavaScript"], demo: "", repository: ""
     },
     {
       tittle: "CRUD de videojuegos con su género", description: "Interfaz gráfica para el ingreso, consulta, actualización y eliminación de videojuegos con su género, front-end realizado con Angular y API con Laravel",

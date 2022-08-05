@@ -3,8 +3,10 @@ export default function Hero() {
         <div className="">
             <div className="text-white py-5 text-center marca">
                     <h1>Hola,</h1>
-                    <h1>soy Juan Pablo,</h1>
-                    <h1>desarrollador web</h1>
+                    <h1>soy Juan Pablo Tovar Vallejo,</h1>
+                    <h1>estudiante de Ingeniería en Software</h1>
+                    <h1>de la Escuela Politénica Nacional</h1>
+                    <h1>y me apasiona el desarrollo web</h1>
             </div>
             <style jsx>{`
                 @keyframes typing {
