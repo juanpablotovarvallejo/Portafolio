@@ -27,11 +27,11 @@ export default function Home() {
     },
     {
       tittle: "CRUD de videojuegos con su género", description: "Interfaz gráfica para el ingreso, consulta, actualización y eliminación de videojuegos con su género, front-end realizado con Angular y API con Laravel",
-      img: "/Portafolio/img/yt.png", tools: ["Angular", "Laravel", "TypeScript", "Bootstrap", "HTML", "CSS"], demo: "", repository: ""
+      img: "/Portafolio/img/cv1.png", tools: ["Angular", "Laravel", "TypeScript", "Bootstrap", "HTML", "CSS"], demo: "", repository: ""
     },
     {
       tittle: "Sistema de gestión de inventario para el GADMRiobamba", description: "Prototipo de sistema de gestión de inventario de material de seguridad del personal del GADM realizado en Laravel",
-      img: "/Portafolio/img/yt.png", tools: ["Laravel", "HTML", "PHP", "Bootstrap"], demo: "", repository: "https://github.com/Juancho1502011/SistemaSSO"
+      img: "/Portafolio/img/sso1.png", tools: ["Laravel", "HTML", "PHP", "Bootstrap"], demo: "", repository: "https://github.com/Juancho1502011/SistemaSSO"
     }
   ]
   return (

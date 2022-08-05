@@ -30,8 +30,8 @@ export default function Tarjeta(props) {
 
 
     return (
-        <div className="col-lg-4 col-md-6 px-4 my-4">
-            <Card className="h-100 negro mx-auto" role={'button'}>
+        <div className="col-lg-4 col-md-6 px-4 my-4 tarjeta">
+            <Card className="h-100 negro mx-auto" role={'button'} onClick={handleShow}>
                 <div className="card-img-top img ">
                     <Card.Img style={{ borderRadius: 12 + 'px' }} variant="top" src={props.img} />
                     <div className="hidden container">
@@ -48,7 +48,7 @@ export default function Tarjeta(props) {
                         </div>
                     </div>
                 </div>
-                <Card.Body onClick={handleShow}>
+                <Card.Body >
                     <Card.Title>{props.title}</Card.Title>
                     <div className="card-text row justify-content-center">
                         <p>Herramientas:</p>
@@ -107,7 +107,7 @@ export default function Tarjeta(props) {
                     height: 0%;
                     transition: .5s ease;
                 }
-                .img:hover .hidden {
+                .tarjeta:hover .hidden {
                     bottom: 0;
                     height: 100%;
                 }
