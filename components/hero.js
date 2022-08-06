@@ -5,7 +5,7 @@ export default function Hero() {
                     <h1>Hola,</h1>
                     <h1>soy Juan Pablo Tovar Vallejo,</h1>
                     <h1>estudiante de Ingeniería en Software</h1>
-                    <h1>de la Escuela Politénica Nacional</h1>
+                    <h1>de la Escuela Politécnica Nacional</h1>
                     <h1>y me apasiona el desarrollo web</h1>
             </div>
             <style jsx>{`
