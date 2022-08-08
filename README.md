@@ -1,1 +1,1 @@
-Link: https://juancho1502011.github.io/Portafolio/
+Link: https://juanpablotovarvallejo.github.io/Portafolio/
