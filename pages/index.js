@@ -10,28 +10,33 @@ export default function Home() {
 
   const projects = [
     {
+      tittle: "Prototipo portal Ministerio de Salud Pública", description: "Prototipo de interfaz gráfica de una versión alternativa al portal web del Ministerio de Salud Pública hecho con Angular", img: "/Portafolio/img/pmsp1.png",
+      tools: ["Angular", "TypeScript", "Bootstrap", "HTML", "CSS"], demo: "https://juanpablotovarvallejo.github.io/PrototipoMinisterioSaludPublica/", repository: "https://github.com/juanpablotovarvallejo/PrototipoMinisterioSaludPublica",
+      ss: ["/Portafolio/img/pmsp1.png", "/Portafolio/img/pmsp2.png", "/Portafolio/img/pmsp3.png"]
+    },
+    {
       tittle: "Portafolio digital 2022", description: "Portafolio digital realizado con NextJs y React.", img: "/Portafolio/img/pt1.png",
-      tools: ["NextJs", "React", "Bootstrap", "JavaScript", "HTML", "CSS"], demo: "https://juancho1502011.github.io/Portafolio/", repository: "https://github.com/Juancho1502011/Portafolio",
+      tools: ["NextJs", "React", "Bootstrap", "JavaScript", "HTML", "CSS"], demo: "https://juanpablotovarvallejo.github.io/Portafolio/", repository: "https://github.com/juanpablotovarvallejo/Portafolio",
       ss: ["/Portafolio/img/pt1.png", "/Portafolio/img/pt2.png", "/Portafolio/img/pt3.png", "/Portafolio/img/pt4.png"]
     },
     {
       tittle: "Youtube UI", description: "Interfaz gráfica de Youtube realizada con Angular.",
-      img: "/Portafolio/img/yt.png", tools: ["Angular", "TypeScript", "Bootstrap", "HTML", "CSS"], demo: "https://juancho1502011.github.io/YouTube-FrontEnd/inicio", repository: "https://github.com/Juancho1502011/YouTube-FrontEnd",
+      img: "/Portafolio/img/yt.png", tools: ["Angular", "TypeScript", "Bootstrap", "HTML", "CSS"], demo: "https://juanpablotovarvallejo.github.io/YouTube-FrontEnd/inicio", repository: "https://github.com/juanpablotovarvallejo/YouTube-FrontEnd",
       ss: ["/Portafolio/img/yt.png", "/Portafolio/img/yt2.png", "/Portafolio/img/yt3.png"]
     },
     {
       tittle: "Juego ruleta rusa", description: "Juego multijugador de la ruleta rusa, front-end realizado con Angular y websocket con NestJs.",
-      img: "/Portafolio/img/rr.png", tools: ["Angular", "TypeScript", "NestJs", "Bootstrap", "HTML"], demo: "https://juancho1502011.github.io/Juego-Ruleta-Rusa/", repository: "https://github.com/Juancho1502011/Juego-Ruleta-Rusa",
+      img: "/Portafolio/img/rr.png", tools: ["Angular", "TypeScript", "NestJs", "Bootstrap", "HTML"], demo: "https://juanpablotovarvallejo.github.io/Juego-Ruleta-Rusa/", repository: "https://github.com/juanpablotovarvallejo/Juego-Ruleta-Rusa",
       ss: ["/Portafolio/img/rr.png", "/Portafolio/img/rr2.png", "/Portafolio/img/rr3.png", "/Portafolio/img/rr4.png"]
     },
     {
       tittle: "Sistema de venta de tickets para transporte interprovincial", description: "Sistema para la venta de tickets y generación de códigos QR para un terminal terrestre, front-end realizado con Angular y API con Django",
-      img: "/Portafolio/img/svt1.png", tools: ["Angular", "TypeScript", "Django", "Bootstrap", "HTML", "JavaScript"], demo: "", repository: "https://github.com/Juancho1502011/ProyectoWebA",
+      img: "/Portafolio/img/svt1.png", tools: ["Angular", "TypeScript", "Django", "Bootstrap", "HTML", "JavaScript"], demo: "", repository: "https://github.com/juanpablotovarvallejo/ProyectoWebA",
       ss: ["/Portafolio/img/svt1.png", "/Portafolio/img/svt2.png", "/Portafolio/img/svt3.png", "/Portafolio/img/svt4.png", "/Portafolio/img/svt5.png"]
     },
     {
       tittle: "CRUD de videojuegos con su género", description: "Interfaz gráfica para el ingreso, consulta, actualización y eliminación de videojuegos con su género, front-end realizado con Angular y API con Laravel",
-      img: "/Portafolio/img/cv1.png", tools: ["Angular", "Laravel", "TypeScript", "Bootstrap", "HTML", "CSS"], demo: "", repository: "https://github.com/Juancho1502011/GestionVideojuegos",
+      img: "/Portafolio/img/cv1.png", tools: ["Angular", "Laravel", "TypeScript", "Bootstrap", "HTML", "CSS"], demo: "", repository: "https://github.com/juanpablotovarvallejo/GestionVideojuegos",
       ss: ["/Portafolio/img/cv1.png", "/Portafolio/img/cv2.png", "/Portafolio/img/cv3.png", "/Portafolio/img/cv4.png"]
     },
     {

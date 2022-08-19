@@ -1,7 +1,7 @@
 import { Button } from "react-bootstrap";
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import {BsEnvelopeFill} from 'react-icons/bs';
+import {BsEnvelopeFill, BsGithub, BsLinkedin} from 'react-icons/bs';
 
 export default function Contacto() {
 
@@ -21,9 +21,11 @@ export default function Contacto() {
             ducument.querySelector('textarea').value = '';
     };
 
+
+
     return <div className="container text-center mb-4">
         <h1 className='my-4 marca' style={{ fontSize: 4 + 'rem' }}>Contacto</h1>
-        <form className="mb-4" ref={form} onSubmit={sendEmail}>
+        <form className="mb-5   " ref={form} onSubmit={sendEmail}>
             <div className="my-4 row justify-content-center">
                 <label htmlFor="inputNombre" className="col-sm-1 col-form-label">Nombre</label>
                 <div className="col-sm-10 col-md-7 p-0 negro mx-3">
@@ -44,6 +46,15 @@ export default function Contacto() {
             </div>
             <Button className="my-4" type="submit" ><BsEnvelopeFill className="mb-1"/> Enviar</Button>
         </form>
+        <div className="row justify-content-center my-5">
+
+            <a className="my-2 d-inline-block text-decoration-none text-white" href="https://www.linkedin.com/in/juan-pablo-tovar-vallejo-467220232/">
+            <i class="bi bi-linkedin"></i><BsLinkedin className="mb-1"/> LinkedIn</a>
+            <a className="my-2 d-inline-block text-decoration-none text-white" href="https://github.com/juanpablotovarvallejo">
+            <i class="bi bi-linkedin"></i><BsGithub className="mb-1"/> Github</a>
+            <div className="my-2 d-inline-block text-decoration-none text-white">
+            <i class="bi bi-linkedin"></i><BsEnvelopeFill className="mb-1"/> juan.tovar@epn.edu.ec</div>
+        </div>
         <style jsx>{`
             .form-control{
                 position: relative;
